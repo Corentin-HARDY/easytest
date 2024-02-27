@@ -1,0 +1,72 @@
+﻿<Window x:Class="EasySave.Parameters"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EasySave"
+        mc:Ignorable="d"
+        Title="Parameters" Height="450" Width="800">
+
+    <Border Padding="20">
+        <Grid>
+            <!-- Header avec bouton de retour et titre -->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- Retour et titre -->
+            <Button x:Name="back" Content="←" Click="Back_Click"
+                Width="30" 
+                Height="30" 
+                VerticalAlignment="Top" 
+                HorizontalAlignment="Left" 
+                Margin="0,0,0,20"
+                Foreground="White"
+                Background="Black" BorderBrush="Transparent"/>
+
+            <TextBlock x:Name="Titlep" Text="Paramètres" FontSize="24" FontWeight="Bold" Margin="0,40,0,0"/>
+
+            <!-- Contenu des paramètres -->
+            <StackPanel Grid.Row="1" VerticalAlignment="Top" Margin="10">
+
+                <!-- Extension des fichiers à crypter -->
+                <TextBlock x:Name="Extenxion" Text="Extension des fichiers à crypter :" Foreground="Black" Margin="0,10"/>
+                <StackPanel Orientation="Horizontal" Margin="0,0">
+                    <TextBox x:Name="TextBoxExtension" Width="332" Height="20"/>
+                    <Button x:Name="AddExtenxion" Content="+" Click="AddExtenxion_Click" Width="20" Height="20" Margin="5,0" Background="Green" Foreground="White" BorderBrush="Transparent"/>
+                    <ComboBox x:Name="Combo1" Width="332" Height="20" Margin="5,0"  />
+                    <Button x:Name="DeleteExtenxion" Content="x" Width="20" Height="20" Background="Red" Foreground="White" BorderBrush="Transparent" Click="DeleteExtenxion_Click"/>
+                </StackPanel>
+
+                <!-- Logiciel métier -->
+                <TextBlock x:Name="Logiciel" Text="Logiciel métier :" Foreground="Black" Margin="0,10"/>
+                <StackPanel Orientation="Horizontal" Margin="0,0">
+                    <TextBox x:Name="TextBoxLogiciel" Width="332" Height="20"/>
+                    <Button x:Name="AddLogiciel" Content="+" Click="AddLogiciel_Click" Width="20" Height="20" Margin="5,0" Background="Green" Foreground="White" BorderBrush="Transparent"/>
+                    <ComboBox x:Name="Combo2" Width="332" Height="20" Margin="5,0"/>
+                    <Button x:Name="DeleteLogiciel" Content="x" Width="20" Height="20" Background="Red" Foreground="White" BorderBrush="Transparent" Click="DeleteLogiciel_Click"/>
+                </StackPanel>
+
+                <!-- Type de fichier de log -->
+                <TextBlock x:Name="TypeFile" Text="Type de fichier de log :" Foreground="Black" Margin="0,10"/>
+
+                <ComboBox x:Name="saveOption" Height="20" Grid.Column="2" SelectedValuePath="Content" SelectedIndex="1">
+                    <ComboBoxItem x:Name="typeOption1" Content="XML" />
+                    <ComboBoxItem x:Name="typeOption2" Content="JSON"/>
+                </ComboBox>
+
+                <Button x:Name="Enregistrer" 
+                    Content="Enregistrer"  
+                    Click="Save_Click"
+                    Width="100" 
+                    HorizontalAlignment="Center" 
+                    Margin="0,50,0,0" 
+                    Background="Black" 
+                    Foreground="White" 
+                    BorderBrush="Transparent" 
+                    Height="28"/>
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>

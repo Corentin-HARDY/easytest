@@ -1,0 +1,59 @@
+﻿<Window x:Class="EasySave.AddBackupJob"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EasySave"
+        mc:Ignorable="d"
+        Title="AddBackupJob" Height="450" Width="800">
+
+    <Border Padding="20">
+        <StackPanel>
+            <Button x:Name="back" Content="←" Click="Back_Click"
+                    Width="30" 
+                    Height="30" 
+                    VerticalAlignment="Top" 
+                    HorizontalAlignment="Left" 
+                    Margin="0,0,0,10"
+                    Foreground="White"
+                    Background="Black" BorderBrush="Transparent"/>
+
+            <TextBlock x:Name="Title" Text="Ajouter un travail de sauvegarde" FontSize="24" FontWeight="Bold" Margin="0,0,0,10"/>
+
+            <TextBlock x:Name="Nme" Text="Nom" Margin="0,0,0,5"/>
+            <TextBox x:Name="namejob" Margin="0,0,0,10"/>
+
+            <TextBlock x:Name="Src" Text="Source" Margin="0,0,0,5"/>
+            <TextBox x:Name="source" Margin="0,0,0,10"/>
+
+            <TextBlock x:Name="Dest" Text="Destination" Margin="0,0,0,5"/>
+            <TextBox x:Name="target" Margin="0,0,0,10"/>
+
+            <TextBlock x:Name="Typ" Text="Type de Sauvegarde" Margin="0,0,0,5"/>
+            <ComboBox x:Name="saveOption" SelectedValuePath="Content" Margin="0,0,0,10">
+                <ComboBoxItem x:Name="typeOption1" Content="Complet" />
+                <ComboBoxItem x:Name="typeOption2" Content="Differentielle"/>
+            </ComboBox>
+
+            <Grid Margin="0,10,0,5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <CheckBox x:Name="iscrypted" BorderBrush="Black" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <TextBlock Text="Cocher pour crypter les fichiers" Grid.Column="1" VerticalAlignment="Center" Margin="5,0,0,0"/>
+            </Grid>
+
+            <Button x:Name="Ajouter" 
+                    Content="Ajouter"  
+                    Click="Ajouter_Click"
+                    Width="100" 
+                    HorizontalAlignment="Center" 
+                    Margin="0,10,0,0" 
+                    Background="Black" 
+                    Foreground="White" 
+                    BorderBrush="Transparent" 
+                    Height="28"/>
+        </StackPanel>
+    </Border>
+</Window>

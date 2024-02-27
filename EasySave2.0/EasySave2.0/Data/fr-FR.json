@@ -1,0 +1,388 @@
+﻿[
+  {
+    "Keyword": "MaxBackupJobsReached",
+    "Sentence": "Limite maximale de 5 travaux de sauvegarde atteinte. Impossible d'ajouter de nouveaux travaux."
+  },
+  {
+    "Keyword": "AddBackupJobFailed",
+    "Sentence": "Échec de l'ajout du travail de sauvegarde:"
+  },
+  {
+    "Keyword": "WelcomeEasySave",
+    "Sentence": "Bienvenue sur EasySave !"
+  },
+  {
+    "Keyword": "ChooseLangue",
+    "Sentence": "Choisie une langue"
+  },
+  {
+    "Keyword": "Select",
+    "Sentence": "Tout selectionner"
+  },
+  {
+    "Keyword": "BackupJobAddedSuccess",
+    "Sentence": "Le travail de sauvegarde a été rajouté avec succès"
+  },
+  {
+    "Keyword": "Execute",
+    "Sentence": "Exécuter"
+  },
+  {
+    "Keyword": "Complete",
+    "Sentence": "Complet"
+  },
+  {
+    "Keyword": "Differential",
+    "Sentence": "Différentielle"
+  },
+  {
+    "Keyword": "Name",
+    "Sentence": "Nom"
+  },
+  {
+    "Keyword": "Source",
+    "Sentence": "Source"
+  },
+  {
+    "Keyword": "Target",
+    "Sentence": "Destination"
+  },
+  {
+    "Keyword": "Type",
+    "Sentence": "Type de sauvegarde"
+  },
+  {
+    "Keyword": "Title",
+    "Sentence": "Ajouter un travail de sauvegarde"
+  },
+  {
+    "Keyword": "Src",
+    "Sentence": "Source"
+  },
+  {
+    "Keyword": "Dest",
+    "Sentence": "Destination"
+  },
+  {
+    "Keyword": "Typ",
+    "Sentence": "Type de sauvegarde"
+  },
+  {
+    "Keyword": "Nme",
+    "Sentence": "Nom"
+  },
+  {
+    "Keyword": "Num",
+    "Sentence": "Num"
+  },
+  {
+    "Keyword": "Name",
+    "Sentence": "Nom"
+  },
+  {
+    "Keyword": "Add",
+    "Sentence": "Ajouter"
+  },
+  {
+    "Keyword": "Src",
+    "Sentence": "Source"
+  },
+  {
+    "Keyword": "Trg",
+    "Sentence": "Cible"
+  },
+  {
+    "Keyword": "JSON",
+    "Sentence": "Le format du fichier de log est défini sur : JSON"
+  },
+  {
+    "Keyword": "XML",
+    "Sentence": "Le format du fichier de log est défini sur : XML"
+  },
+  {
+    "Keyword": "LogFileFormat",
+    "Sentence": "Choisissez le format de votre fichier de Log :"
+  },
+  {
+    "Keyword": "Path",
+    "Sentence": "Retrouvez votre fichier dans : C:\\Temp"
+  },
+  {
+    "Keyword": "English",
+    "Sentence": "1. Anglais"
+  },
+  {
+    "Keyword": "warning",
+    "Sentence": "Une erreur s'est produite lors de la sauvegarde"
+  },
+  {
+    "Keyword": "LogicielRunning",
+    "Sentence": "L'opération de sauvegarde ne peut pas être lancée car un logiciel métier est actuellement en activité."
+  },
+  {
+    "Keyword": "Info",
+    "Sentence": "Attention"
+  },
+  {
+    "Keyword": "Titlep",
+    "Sentence": "Paramètres"
+  },
+  {
+    "Keyword": "Logiciel",
+    "Sentence": "Logiciel métier"
+  },
+  {
+    "Keyword": "TypeFile",
+    "Sentence": "Type de fichier de log :"
+  },
+  {
+    "Keyword": "Enregistrer",
+    "Sentence": "Enregistrer"
+  },
+  {
+    "Keyword": "Extenxion",
+    "Sentence": "Extension des fichiers à crypter"
+  },
+  {
+    "Keyword": "Changes",
+    "Sentence": "Les changements ont été pris en compte"
+  },
+  {
+    "Keyword": "DuplicateDetected",
+    "Sentence": "La valeur existe déja dans la liste."
+  },
+  {
+    "Keyword": "French",
+    "Sentence": "2. Français"
+  },
+  {
+    "Keyword": "AccessMenu",
+    "Sentence": "Appuyez sur Entrée pour afficher le menu..."
+  },
+  {
+    "Keyword": "PressKeyToReturnToMenu",
+    "Sentence": "Appuyez sur une touche pour revenir au menu..."
+  },
+  {
+    "Keyword": "BackupJobAddedSuccessfully",
+    "Sentence": "Travail de sauvegarde ajouté avec succès !"
+  },
+  {
+    "Keyword": "BackupJobAddedFailed",
+    "Sentence": "Erreur ajout du travail de sauvegarde !"
+  },
+  {
+    "Keyword": "ExecutionOptions",
+    "Sentence": "Options d'exécution:"
+  },
+  {
+    "Keyword": "EnterBackupJobNames",
+    "Sentence": "1. Entrez les noms des travaux à exécuter séparés par ';' pour une sélection individuelle."
+  },
+  {
+    "Keyword": "ExampleJobExecution",
+    "Sentence": "   Exemple: 'Job1;Job3' pour exécuter Job1 et Job3."
+  },
+  {
+    "Keyword": "UseDashForRange",
+    "Sentence": "2. Utilisez '-' pour spécifier un intervalle."
+  },
+  {
+    "Keyword": "ExampleRangeExecution",
+    "Sentence": "   Exemple: 'Job1-Job3' pour exécuter Job1 à Job3."
+  },
+  {
+    "Keyword": "NoBackupJobsToExecute",
+    "Sentence": "Aucun travail de sauvegarde à exécuter."
+  },
+  {
+    "Keyword": "BackupJobDeletedSuccessfully",
+    "Sentence": "Travail de sauvegarde supprimé avec succès."
+  },
+  {
+    "Keyword": "BackupJobsList",
+    "Sentence": "Liste des travaux de sauvegarde disponibles :"
+  },
+  {
+    "Keyword": "EnterBackupJobName",
+    "Sentence": "Entrez le nom du travail de sauvegarde que vous souhaitez supprimer :"
+  },
+  {
+    "Keyword": "NoBackupJobs",
+    "Sentence": "Aucun travail de sauvegarde est disponible. Veuillez en créer de nouveau pour les utiliser."
+  },
+  {
+    "Keyword": "NoBackupJobsAvailableForDeletion",
+    "Sentence": "Aucun travail de sauvegarde disponible pour la suppression."
+  },
+  {
+    "Keyword": "NoBackupJobsFoundedWithName",
+    "Sentence": "Aucun travail de sauvegarde trouvé avec ce nom. Veuillez réessayer ou laisser vide pour retourner au menu."
+  },
+  {
+    "Keyword": "ChooseLanguage",
+    "Sentence": "5. Choisisir la langue"
+  },
+  {
+    "Keyword": "ChooseName",
+    "Sentence": "Nom du travail :"
+  },
+  {
+    "Keyword": "Source",
+    "Sentence": "Source :"
+  },
+  {
+    "Keyword": "Target",
+    "Sentence": "Scible :"
+  },
+  {
+    "Keyword": "InvalidOption",
+    "Sentence": "Choix invalide ! Appuyez sur une touche pour continuer..."
+  },
+  {
+    "Keyword": "NoBackupJobsFoundedWithName",
+    "Sentence": "Aucun travail de sauvegarde n'a été trouvé à ce nom. Veuillez réessayer."
+  },
+  {
+    "Keyword": "ExecutingBackupJob",
+    "Sentence": "Exécution du travail de sauvegarde "
+  },
+  {
+    "Keyword": "ExecutingFullBackup",
+    "Sentence": "Exécution d'une sauvegarde complète..."
+  },
+  {
+    "Keyword": "ExecutingDifferentialBackup",
+    "Sentence": "Exécution d'une sauvegarde différentielle..."
+  },
+  {
+    "Keyword": "UnsupportedBackupType",
+    "Sentence": "Type de sauvegarde non supporté."
+  },
+  {
+    "Keyword": "InvalidJobNameRange",
+    "Sentence": "Plage de noms de travaux spécifiée invalide."
+  },
+  {
+    "Keyword": "FullBackupCompletedSuccessfully",
+    "Sentence": "Sauvegarde complète terminée avec succès."
+  },
+  {
+    "Keyword": "NoBackupJobSelected",
+    "Sentence": "Aucun travail de sauvegarde sélectionnés."
+  },
+  {
+    "Keyword": "Success",
+    "Sentence": "Succès"
+  },
+  {
+    "Keyword": "Error",
+    "Sentence": "Erreur"
+  },
+  {
+    "Keyword": "BackupJobsExecutedSuccess",
+    "Sentence": "Les travaux de sauvegarde suivants ont été exécutés avec succès : {0}."
+  },
+  {
+    "Keyword": "NoBackupJobsExecuted",
+    "Sentence": "Aucune des tâches de sauvegarde sélectionnées n'a été exécutée avec succès."
+  },
+  {
+    "Keyword": "ExecutionSuccess",
+    "Sentence": "Exécution réussie"
+  },
+  {
+    "Keyword": "ExecutionFailure",
+    "Sentence": "Échec de l'exécution"
+  },
+  {
+    "Keyword": "BackupJobsDeletedSuccess",
+    "Sentence": "{0} BackupJob(s) supprimé(s) avec succès."
+  },
+  {
+    "Keyword": "DeletionSuccessful",
+    "Sentence": "Suppression réussie"
+  },
+  {
+    "Keyword": "BackupJobFailed",
+    "Sentence": "Echec d'éxécution du travail de sauvegarde."
+  },
+  {
+    "Keyword": "DifferentialBackupCompletedSuccessfully",
+    "Sentence": "Sauvegarde différentielle terminée avec succès."
+  },
+  {
+    "Keyword": "NoBackupJobWithName",
+    "Sentence": "Aucun travail de sauvegarde trouvé avec le nom"
+  },
+  {
+    "Keyword": "Menu",
+    "Sentence": "Menu"
+  },
+  {
+    "Keyword": "EnterYourChoice",
+    "Sentence": "Entrez votre choix :"
+  },
+  {
+    "Keyword": "InvalidChoicePleaseEnterNumber",
+    "Sentence": "Choix invalide. Veuillez entrer un nombre entre 1 et 7."
+  },
+  {
+    "Keyword": "BackupJobType",
+    "Sentence": "Choisissez le type de sauvegarde :"
+  },
+  {
+    "Keyword": "Full",
+    "Sentence": "- FULL"
+  },
+  {
+    "Keyword": "Differential",
+    "Sentence": "- DIFFERENTIAL"
+  },
+  {
+    "Keyword": "CreateBackupJob",
+    "Sentence": "Création d'un nouveau travail de sauvegarde"
+  },
+  {
+    "Keyword": "ShowMenu",
+    "Sentence": "Appuyer sur entrer pour afficher le menu ..."
+  },
+
+  {
+    "Keyword": "DisplayBackupJobs",
+    "Sentence": "1. Afficher les travaux de sauvegarde"
+  },
+  {
+    "Keyword": "InvalidBackupType",
+    "Sentence": "Type de sauvegarde introuvable. Veuillez entrer un type correct !"
+  },
+  {
+    "Keyword": "AddBackupJob",
+    "Sentence": "2. Ajouter un travail de sauvegarde"
+  },
+  {
+    "Keyword": "ExecuteBackupJob",
+    "Sentence": "3. Exécuter un travail de sauvegarde"
+  },
+  {
+    "Keyword": "DeleteBackupJob",
+    "Sentence": "4. Supprimer un travail de sauvegarde"
+  },
+  {
+    "Keyword": "ChooseLanguage",
+    "Sentence": "5. Choisir une langue"
+  },
+  {
+    "Keyword": "ShowMenu",
+    "Sentence": "Appuyer sur entrer pour afficher le menu ..."
+  },
+  {
+    "Keyword": "LogType",
+    "Sentence": "6. Choisisez le type du fichier de log"
+  },
+  {
+    "Keyword": "Quit",
+    "Sentence": "7. Quitter"
+  }
+
+]

@@ -1,0 +1,382 @@
+﻿[
+  {
+    "Keyword": "MaxBackupJobsReached",
+    "Sentence": "Maximum limit of 5 backup jobs reached. Cannot add new jobs."
+  },
+  {
+    "Keyword": "AddBackupJobFailed",
+    "Sentence": "Failed to add the backup job:"
+  },
+  {
+    "Keyword": "WelcomeEasySave",
+    "Sentence": "Welcome to EasySave!"
+  },
+  {
+    "Keyword": "ChooseLangue",
+    "Sentence": "Choose a language"
+  },
+  {
+    "Keyword": "Num",
+    "Sentence": "Num"
+  },
+  {
+    "Keyword": "Complete",
+    "Sentence": "Complet"
+  },
+  {
+    "Keyword": "Title",
+    "Sentence": "Add a new BackupJob"
+  },
+  {
+    "Keyword": "Src",
+    "Sentence": "Source"
+  },
+  {
+    "Keyword": "Dest",
+    "Sentence": "Target"
+  },
+  {
+    "Keyword": "Error",
+    "Sentence": "Error"
+  },
+  {
+    "Keyword": "Success",
+    "Sentence": "Success"
+  },
+  {
+    "Keyword": "BackupJobsExecutedSuccess",
+    "Sentence": "The following backup jobs were successfully executed: {0}."
+  },
+  {
+    "Keyword": "NoBackupJobsExecuted",
+    "Sentence": "None of the selected backup jobs were successfully executed."
+  },
+  {
+    "Keyword": "ExecutionSuccess",
+    "Sentence": "Successful Execution"
+  },
+  {
+    "Keyword": "ExecutionFailure",
+    "Sentence": "Execution Failure"
+  },
+  {
+    "Keyword": "BackupJobsDeletedSuccess",
+    "Sentence": "{0} BackupJob(s) successfully deleted."
+  },
+  {
+    "Keyword": "DeletionSuccessful",
+    "Sentence": "Successful Deletion"
+  },
+  {
+    "Keyword": "BackupJobAddedSuccess",
+    "Sentence": "The backup job successfully added "
+  },
+  {
+    "Keyword": "LogicielRunning",
+    "Sentence": "The backup operation cannot be initiated because a business application is currently running."
+  },
+  {
+    "Keyword": "Typ",
+    "Sentence": "BackupJob Type"
+  },
+  {
+    "Keyword": "Titlep",
+    "Sentence": "Settings"
+  },
+  {
+    "Keyword": "Logiciel",
+    "Sentence": "Business Software"
+  },
+  {
+    "Keyword": "TypeFile",
+    "Sentence": "Log File Type:"
+  },
+  {
+    "Keyword": "Enregistrer",
+    "Sentence": "Save"
+  },
+  {
+    "Keyword": "Extenxion",
+    "Sentence": "Extension of Files to Encrypt"
+  },
+  {
+    "Keyword": "Info",
+    "Sentence": "Warning"
+  },
+  {
+    "Keyword": "Changes",
+    "Sentence": "The changes have been taken into account"
+  },
+  {
+    "Keyword": "DuplicateDetected",
+    "Sentence": "The value is already present in the list."
+  },
+  {
+    "Keyword": "Add",
+    "Sentence": "Add"
+  },
+  {
+    "Keyword": "Nme",
+    "Sentence": "Name"
+  },
+  {
+    "Keyword": "Differential",
+    "Sentence": "Differential"
+  },
+  {
+    "Keyword": "Name",
+    "Sentence": "Name"
+  },
+  {
+    "Keyword": "Source",
+    "Sentence": "Source"
+  },
+  {
+    "Keyword": "Target",
+    "Sentence": "Target"
+  },
+  {
+    "Keyword": "Type",
+    "Sentence": "Type"
+  },
+  {
+    "Keyword": "Select",
+    "Sentence": "Select All"
+  },
+  {
+    "Keyword": "Execute",
+    "Sentence": "Execute"
+  },
+  {
+    "Keyword": "NoBackupJobSelected",
+    "Sentence": "No backupJob selected."
+  },
+  {
+    "Keyword": "BackupJobFailed",
+    "Sentence": "Failed to execute the backupJob"
+  },
+  {
+    "Keyword": "Name",
+    "Sentence": "Name"
+  },
+  {
+    "Keyword": "warning",
+    "Sentence": "There is a error"
+  },
+  {
+    "Keyword": "Src",
+    "Sentence": "Source"
+  },
+  {
+    "Keyword": "Trg",
+    "Sentence": "Target"
+  },
+  {
+    "Keyword": "Type",
+    "Sentence": "Type"
+  },
+  {
+    "Keyword": "JSON",
+    "Sentence": "The log file format is set to: JSON"
+  },
+  {
+    "Keyword": "XML",
+    "Sentence": "The log file format is set to: XML"
+  },
+  {
+    "Keyword": "LogFileFormat",
+    "Sentence": "Choose the format of your log file:"
+  },
+  {
+    "Keyword": "Path",
+    "Sentence": "Find your file at: C:\\Temp"
+  },
+  {
+    "Keyword": "English",
+    "Sentence": "1. English"
+  },
+  {
+    "Keyword": "French",
+    "Sentence": "2. French"
+  },
+  {
+    "Keyword": "AccessMenu",
+    "Sentence": "Press Enter to display the menu..."
+  },
+  {
+    "Keyword": "PressKeyToReturnToMenu",
+    "Sentence": "Press any key to return to the menu..."
+  },
+  {
+    "Keyword": "BackupJobAddedSuccessfully",
+    "Sentence": "Backup job added successfully!"
+  },
+  {
+    "Keyword": "BackupJobAddedFailed",
+    "Sentence": "Error adding backup job!"
+  },
+  {
+    "Keyword": "ExecutionOptions",
+    "Sentence": "Execution options:"
+  },
+  {
+    "Keyword": "EnterBackupJobNames",
+    "Sentence": "1. Enter the names of the jobs to execute separated by ';' for individual selection."
+  },
+  {
+    "Keyword": "ExampleJobExecution",
+    "Sentence": "   Example: 'Job1;Job3' to execute Job1 and Job3."
+  },
+  {
+    "Keyword": "UseDashForRange",
+    "Sentence": "2. Use '-' to specify a range."
+  },
+  {
+    "Keyword": "ExampleRangeExecution",
+    "Sentence": "   Example: 'Job1-Job3' to execute jobs from Job1 to Job3."
+  },
+  {
+    "Keyword": "NoBackupJobsToExecute",
+    "Sentence": "No backup jobs to execute."
+  },
+  {
+    "Keyword": "BackupJobDeletedSuccessfully",
+    "Sentence": "Backup job deleted successfully."
+  },
+  {
+    "Keyword": "BackupJobsList",
+    "Sentence": "List of available backup jobs:"
+  },
+  {
+    "Keyword": "EnterBackupJobName",
+    "Sentence": "Enter the name of the backup job you wish to delete:"
+  },
+  {
+    "Keyword": "NoBackupJobs",
+    "Sentence": "No backup jobs are available. Please create new ones to use them."
+  },
+  {
+    "Keyword": "NoBackupJobsAvailableForDeletion",
+    "Sentence": "No backup jobs available for deletion."
+  },
+  {
+    "Keyword": "NoBackupJobsFoundedWithName",
+    "Sentence": "No backup jobs found with that name. Please try again."
+  },
+  {
+    "Keyword": "ChooseLanguage",
+    "Sentence": "5. Choose language"
+  },
+  {
+    "Keyword": "ChooseName",
+    "Sentence": "Job Name:"
+  },
+  {
+    "Keyword": "Source",
+    "Sentence": "Source:"
+  },
+  {
+    "Keyword": "Target",
+    "Sentence": "Target:"
+  },
+  {
+    "Keyword": "InvalidOption",
+    "Sentence": "Invalid option! Press any key to continue..."
+  },
+  {
+    "Keyword": "ExecutingBackupJob",
+    "Sentence": "Executing backup job "
+  },
+  {
+    "Keyword": "ExecutingFullBackup",
+    "Sentence": "Executing a full backup..."
+  },
+  {
+    "Keyword": "ExecutingDifferentialBackup",
+    "Sentence": "Executing a differential backup..."
+  },
+  {
+    "Keyword": "UnsupportedBackupType",
+    "Sentence": "Unsupported backup type."
+  },
+  {
+    "Keyword": "InvalidJobNameRange",
+    "Sentence": "Invalid job name range specified."
+  },
+  {
+    "Keyword": "FullBackupCompletedSuccessfully",
+    "Sentence": "Full backup completed successfully."
+  },
+  {
+    "Keyword": "DifferentialBackupCompletedSuccessfully",
+    "Sentence": "Differential backup completed successfully."
+  },
+  {
+    "Keyword": "NoBackupJobWithName",
+    "Sentence": "No backup job found with the name"
+  },
+  {
+    "Keyword": "Menu",
+    "Sentence": "Menu"
+  },
+  {
+    "Keyword": "EnterYourChoice",
+    "Sentence": "Enter your choice:"
+  },
+  {
+    "Keyword": "InvalidChoicePleaseEnterNumber",
+    "Sentence": "Invalid choice. Please enter a number between 1 and 7."
+  },
+  {
+    "Keyword": "BackupJobType",
+    "Sentence": "Choose the type of backup:"
+  },
+  {
+    "Keyword": "Full",
+    "Sentence": "- FULL"
+  },
+  {
+    "Keyword": "Differential",
+    "Sentence": "- DIFFERENTIAL"
+  },
+  {
+    "Keyword": "CreateBackupJob",
+    "Sentence": "Creating a new backup job"
+  },
+  {
+    "Keyword": "ShowMenu",
+    "Sentence": "Press Enter to show the menu..."
+  },
+  {
+    "Keyword": "DisplayBackupJobs",
+    "Sentence": "1. Display backup jobs"
+  },
+  {
+    "Keyword": "InvalidBackupType",
+    "Sentence": "Backup type not found. Please enter a correct type!"
+  },
+  {
+    "Keyword": "AddBackupJob",
+    "Sentence": "2. Add a backup job"
+  },
+  {
+    "Keyword": "ExecuteBackupJob",
+    "Sentence": "3. Execute a backup job"
+  },
+  {
+    "Keyword": "DeleteBackupJob",
+    "Sentence": "4. Delete a backup job"
+  },
+  {
+    "Keyword": "ChooseLanguage",
+    "Sentence": "5. Choose a language"
+  },
+  {
+    "Keyword": "LogType",
+    "Sentence": "6. Choose the log file type"
+  },
+  {
+    "Keyword": "Quit",
+    "Sentence": "7. Quit"
+  }
+]

@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>EasySave2._02._0</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\flag_france.png" />
+    <None Remove="Images\flag_united_kingdom.png" />
+    <None Remove="Images\settings_gear.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\flag_france.png" />
+    <Resource Include="Images\flag_united_kingdom.png" />
+    <Resource Include="Images\settings_gear.png" />
+  </ItemGroup>
+
+</Project>
